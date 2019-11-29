@@ -382,6 +382,52 @@
     color: #fff;
     border-radius: 18px;
 }
+.td__desgin{
+    text-align: left;
+}
+.td__desgin .desgin__pts{
+    padding: 10px 30px;
+}
+.td__desgin .desgin__pts h3{
+    color:#000;
+    font-size: 16px;
+    font-weight:700;
+    margin:0;
+}
+.td__desgin .desgin__pts .summary-star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.td__desgin .desgin__pts .summary-star i{
+    font-size: 21px;
+    text-align: right;
+    color: #2dbeb3;
+}
+.td__desgin .desgin__pts .summary-star h5{
+        margin: 11px 0px 11px;
+        width: 50%;
+        font-size: 14px;
+}
+.td__desgin .desgin__pts .red-des{
+    padding: 10px 0px;
+    font-size: 13px;
+    line-height: 21px;
+}
+.pd__0{
+    padding: 0;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
  @media (min-width: 1024px) and (max-width: 1199px) {
 }
 }
