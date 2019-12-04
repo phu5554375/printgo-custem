@@ -1,4 +1,4 @@
-@font-face {
+Trình-face {
   font-family: "steady";
   src: url("../fonts/SVN-Steady.otf");
        
@@ -413,9 +413,10 @@
     justify-content: space-between;
 }
 .td__desgin .desgin__pts .summary-star i{
-    font-size: 21px;
+    font-size: 17px;
     text-align: right;
     color: #2dbeb3;
+    padding: 0px 3px;
 }
 .td__desgin .desgin__pts .summary-star h5{
         margin: 11px 0px 11px;
@@ -559,8 +560,22 @@
     padding: 3px 13px;
     border-radius: 20px;
 }
-
-
+.yc-des .advisory-form{
+        display: flex;
+    justify-content: center;
+}
+.yc-des .advisory-form .btn.ht-btn-default{
+    height: 41px;
+    margin: 3px;
+    background: #ff3e89;
+    padding: 10px 25px 10px 26px;
+    border: 0;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 
 
@@ -586,6 +601,9 @@
 }
  /*mobile*/
 @media (max-width: 991px) { 
+.yc-des .advisory-form {
+    display: block;
+}
 
 .desgin__detail .top__detail__des{
     display:block;
