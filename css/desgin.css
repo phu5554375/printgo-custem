@@ -141,6 +141,15 @@
     justify-content: space-between;
     border-bottom: 1px solid #fff;
 }
+.bt-item__ap i{
+    margin-right: 5px;
+}
+.bt-item__ap .fa-pencil-alt{
+    color: #ff418a;
+}
+.design__1-6 .ht-product-card .product-detail .pro-name{
+    text-align: left;
+}
 .ap__desgin{
 	width: 100%;
 	overflow: hidden;
@@ -220,6 +229,10 @@
 }
 .fa-pen:before {
     content: "\10f304";
+}
+
+.flex__block{
+    display: flex;
 }
 .duan__desgin .ht-product-card.h-shadow{
 	border-bottom: 1px solid #ff3e89;
@@ -352,7 +365,7 @@
     justify-content: center;
     padding: 20px 0px;
 }
-.desgin__detail .advisory-form .advisory-bar .advisory-text{
+.advisory-form .advisory-bar .advisory-text{
     width: 320px;
     padding: 0 17px;
     font-size: 14px;
@@ -364,7 +377,7 @@
     float: left;
     box-sizing: border-box;
 }
-.desgin__detail .advisory-form .advisory-bar a {
+.advisory-form .advisory-bar a {
     position: absolute;
     border: 0 none;
     background: linear-gradient(90deg,rgba(65,230,198,1) 0%,rgba(58,231,220,1) 100%);
@@ -438,20 +451,114 @@
 .design__1-6 .pd-0__design .ht-product-card{
     border-bottom: 1px solid #ffb1cb;
     padding: 0 0 10px;
+    margin-bottom: 20px;
 }
-.design__1-6 .pd-0__design:hover .ht-product-card{
-    border-bottom: 1px solid #ff3e89;
-}
+
 .bt-item__ap .price-1 a{
     color:#ff3e89;
 }
-.design__1-6 .pd-0__design:hover .ht-product-card .product-detail .pro-name a{
-    color:#ff3e89;
-}
 
-/*.design__1-6 .banner-cate-leftsmall{
-    height: 900px;
-}*/
+.design__1-6 .view-more{
+    text-align: right;
+}
+.design__1-6 .seller-heading-title a{ color: #000 }
+.design__1-6 .btn-fl a{ color:#fff; }
+.design__1-6 .review-summary-average .summary-star{
+    vertical-align: bottom;
+    line-height: 22px;
+}
+.design__1-6 .ht-news-meta {
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+}
+.design__1-6 .ht-news-meta > span {
+    display: inline-block;
+    margin-right: 12px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #777;
+}
+.design__1-6 .ht-news-meta > span i {
+    margin-right: 8px;
+    color: #2dbeb3;
+}
+.pd__16{
+    padding: 0 0 0 16px;
+}
+.pd__166{
+    padding: 0 0 16px 0;
+}
+.block__like-tk{
+    overflow: hidden;
+    width: 100%;
+    background: #f7f6fa;
+    text-align: center;
+
+}
+.block__like-tk .like-tk__top{
+    padding: 20px;
+}
+.block__like-tk .like-tk__top .link-like__des{
+    width:100%;
+
+}
+.block__like-tk .like-tk__top:hover{
+    background: #cccccc3d;
+}
+.block__like-tk .like-tk__top .link-like__des .fa-heart{
+    font-size: 46px;
+    color:#fc7eb0;
+}
+.number-like{
+    display: flex;
+    justify-content: center;
+
+}
+.number-like .num-des{
+    padding: 0 10px;
+}
+.block__like-tk .like-tk__top .link-like__des h5{
+    color:#000;
+    font-weight:600;
+}
+.number-like .num-des i{ margin-right: 5px;}
+.bt-like{
+    background: #f2f1f5;
+    overflow: hidden;
+    padding:20px;
+}
+.ht-product-card{
+    background: none;
+}
+.title__17{
+    margin: 0px 8px 20px;
+}
+.user-avt__des{
+    width: 60px;
+    height: 60px;
+}
+.user-avt__des img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.user-name__des{
+    padding-left: 20px;
+}
+.user-name__des h3{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    
+}
+.user-name__des .btn-green__des{
+    background: #3cbeb3;
+    color: #fff;
+    padding: 3px 13px;
+    border-radius: 20px;
+}
 
 
 
