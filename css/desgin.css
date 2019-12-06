@@ -1,4 +1,4 @@
-Trình-face {
+@font-face {
   font-family: "steady";
   src: url("../fonts/SVN-Steady.otf");
        
@@ -8,11 +8,9 @@ Trình-face {
     overflow: hidden;
     margin-bottom: 20px;
     height: 250px;
-
 }
 .desgin__10-1-1 .title-chanxanh {
     background: url(../img/chan-xanh.jpg) no-repeat;
-    font-family: TUV-Montserrat-Bold;
     background-size: 52% 71%;
 }
 .desgin__10-1-1 .ct__desgin .wrap_banner img {
@@ -341,6 +339,16 @@ Trình-face {
     box-shadow: 0px 0px 13px #9f9f9f70;
     padding: 10px 20px;
 }
+.desgin__detail .bt__detail__ct .right__ct__detail #endDate{
+        width: 100%;
+    padding: 8px;
+    border-radius: 14px;
+    margin: 0 0px 5px;
+    border: 1px solid #2ebeb3;
+    font-weight: 400;
+    color: #2ebeb3;
+}
+
 .desgin__detail .bt__detail__ct .right__ct__detail h3{
     font-size: 20px;
     font-weight: 700;
@@ -432,7 +440,6 @@ Trình-face {
     padding: 0;
     margin:0;
 }
-
 .back-desgin__16 {
     background: url(../img/10.1_11.png) no-repeat;
     margin: 0px;
@@ -447,18 +454,16 @@ Trình-face {
 .bt-item__ap{
     display:flex;
     margin-top: 5px;
-        justify-content: space-between;
+    justify-content: space-between;
 }
 .design__1-6 .pd-0__design .ht-product-card{
     border-bottom: 1px solid #ffb1cb;
     padding: 0 0 10px;
     margin-bottom: 20px;
 }
-
 .bt-item__ap .price-1 a{
     color:#ff3e89;
 }
-
 .design__1-6 .view-more{
     text-align: right;
 }
@@ -494,14 +499,12 @@ Trình-face {
     width: 100%;
     background: #f7f6fa;
     text-align: center;
-
 }
 .block__like-tk .like-tk__top{
     padding: 20px;
 }
 .block__like-tk .like-tk__top .link-like__des{
     width:100%;
-
 }
 .block__like-tk .like-tk__top:hover{
     background: #cccccc3d;
@@ -513,7 +516,6 @@ Trình-face {
 .number-like{
     display: flex;
     justify-content: center;
-
 }
 .number-like .num-des{
     padding: 0 10px;
@@ -561,7 +563,7 @@ Trình-face {
     border-radius: 20px;
 }
 .yc-des .advisory-form{
-        display: flex;
+    display: flex;
     justify-content: center;
 }
 .yc-des .advisory-form .btn.ht-btn-default{
@@ -576,35 +578,176 @@ Trình-face {
     text-transform: uppercase;
     font-weight: 600;
 }
+.yc-tk{
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+    width: 80%;
+    margin: 0 auto;
+}
+.yc-tk .yc-tk__content{
+    padding: 20px;
+}
+.yc-tk h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:700;
+    padding: 0 0 15px;
+}  
 
+.yc-tk  .group-type-select label.single-option .option-thumb{
+    border-radius: 50%
+}
+.yc-tk .group-type-select label.single-option i.fa-check{
+    background: none;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 2px 0 0 2px;
+}
 
+.fa-question-circle{
+    color:red;
+}
+.radio__tk{
+    padding: 9px 0px;
+}
 
+.radio__tk label{
+    width:100%;
+    padding: 0 9px;
+}
+.radio__tk input{
+    position: absolute;
+    right: 0;
+}
+.tt__des{
+    background: #f4f4f4;
+    border-top: 1px dashed red;
+}
+.tt__des .fa-cut{
+    position: absolute;
+    color: red;
+    font-size: 23px;
+    bottom: 199px;
+}
+.tt__des .cut-tt{
+    padding: 20px;
+}
+.you-tdg{
+    font-size: 16px;
+    font-weight:600;
+    margin: 10px 9px;
+}
+.up__img-des .group-type-select label.single-option .option-thumb{
+    border-radius: 0;
+}
+.customradio input:checked ~ .checkmark {
+    background-color: white;
+    border: 1px solid #BEBEBE;
+}
 
-
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #BEBEBE;
+}
+.customradio input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.customradio .checkmark:after {
+    top: 1px;
+    left: 1px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #36cfbf;
+}
+.customradio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.customradio {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.yc-tk.comfirm__10-11{
+    width: 70%;
+    margin-top: -20px;
+    background: #fff;
+}
+.yc-tk .fa-shopping-basket{
+    margin-right: 5px;
+}
+.bt-10{
+    padding: 5px 10px;
+}
  @media (min-width: 1024px) and (max-width: 1199px) {
-}
-}
+
 .desgin__10-1-1 .ct__desgin .wrap_banner{
 		margin: 0;
 		padding: 10px;
 }
-
+.yc-tk{
+    width:100%;
+}
+.radio__tk .radiotextsty{
+    width: 85%
+}
 }
  @media (min-width: 768px) and (max-width: 1023px) {
 .desgin__10-1-1 .ct__desgin .wrap_banner{
 		padding: 0px 10px;
 		margin-bottom: 15px;
 }
+
 .desgin__detail .ht-user-review-card .reviews-by-user-list .single-review .user-avatar {
     width: 80px;
+}
+.yc-tk{
+    width:100%;
+}
+.yc-tk .yc-tk__content{
+    padding: 5px;
+}
+.radio__tk .radiotextsty{
+    width: 85%
 }
 }
  /*mobile*/
 @media (max-width: 991px) { 
+.radio__tk .radiotextsty{
+    width: 85%
+}
+.yc-tk.comfirm__10-11{
+    width: 100%;
+  
+}
+.yc-tk .yc-tk__content{
+    padding: 5px;
+}
 .yc-des .advisory-form {
     display: block;
 }
-
+.yc-tk{
+    width:100%;
+}
 .desgin__detail .top__detail__des{
     display:block;
 
