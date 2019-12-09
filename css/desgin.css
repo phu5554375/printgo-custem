@@ -141,6 +141,7 @@
 }
 .bt-item__ap i{
     margin-right: 5px;
+    color: #ff418a;
 }
 .bt-item__ap .fa-pencil-alt{
     color: #ff418a;
@@ -340,13 +341,12 @@
     padding: 10px 20px;
 }
 .desgin__detail .bt__detail__ct .right__ct__detail #endDate{
-        width: 100%;
-    padding: 8px;
-    border-radius: 14px;
+    width: 100%;
+    padding: 6px;
     margin: 0 0px 5px;
-    border: 1px solid #2ebeb3;
+    border: 1px solid #000000;
     font-weight: 400;
-    color: #2ebeb3;
+    color: #000000;
 }
 
 .desgin__detail .bt__detail__ct .right__ct__detail h3{
@@ -583,6 +583,9 @@
     width: 80%;
     margin: 0 auto;
 }
+.yc-tk .tooltip1{
+    line-height: 20px;
+}
 .yc-tk .yc-tk__content{
     padding: 20px;
 }
@@ -688,7 +691,7 @@
     user-select: none;
 }
 .yc-tk.comfirm__10-11{
-    width: 70%;
+    width: 65%;
     margin-top: -20px;
     background: #fff;
 }
@@ -698,11 +701,118 @@
 .bt-10{
     padding: 5px 10px;
 }
- @media (min-width: 1024px) and (max-width: 1199px) {
+.ui-gradient-green {
+    background: url(../img/back-lan.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 590px;
+}
+.lan-title{
+    font-family: "steady";
+    padding-right: 30px;
+    font-size: 34px;
+    line-height: 36px;
+    color:#ffdb4a;
+}
+.lan-title span{
+    color:#fff;
+    font-size: 42px;
+}
+.lan-hero .align-items-center{
+    padding: 40px 0 0;
+}
+.lan-text__one{
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    width: 51%;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.lan-text__tow {
+    padding-top: 20px;
+}
+.lan-text__there{
+    padding-top: 15px;
+}
+.lan-text__there span{
+    font-size: 27px;
+    font-weight: 700;
+}
+.lan-tow{
+    padding: 30px 0px;
+    text-align: right;
+}
+.lan-tow h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+}
+.lan-there .btn-printnow{
+    margin: 1px 10px;
+    height: auto;
+}
+.green__icon{
+    justify-content: flex-end;
+}
+.green__icon p{
+    display: flex;
+    padding: 0 10px;
+}
+.green__icon i{
+    color:#2ebeb3;
+    margin-right: 10px;
+}
+.lan__19{
+    padding-top: 30px;
+}
+.lan__19 .content-fedback .right-cmt-product{
+    padding: 0;
+}
+.lan__19 .content-fedback .right-cmt-product{
+    width: 100%;
+}
+.lan__19 .ht-user-review-card .reviews-by-user-list .single-review .review-content{
+    width:100%;
+}
+.lan__19 .h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.lan__19 .block-protect {
+    justify-content: flex-end;
+    padding: 10px 0px;
+    align-items: center;
+}
+.lan__19 .block-protect .form-control {
+    width: 300px;
+    margin-right: 20px;
+    height: 39px;
+}
+.lan-hero .btn-printnow{
+    padding: 11px 31px;
+}
+.lan__project-other .ht-product-card{
+    border-bottom: 2px solid #40e6c9;
+    margin: 0;
+    border-radius: 0;
+    padding-bottom: 14px;
+}
+.lan__project-other .bt-item__ap .fa-pencil-alt{
+    color:#2dbeb3;
+}
+.lan__project-other .bt-item__ap .price-1 a{
+    color:#2dbeb3;
+    font-weight: 600
+}
+.lan__project-other .title-chanxanh{
+    background-size: 78% 71%;
+}
 
+ @media (min-width: 1024px) and (max-width: 1199px) {
 .desgin__10-1-1 .ct__desgin .wrap_banner{
-		margin: 0;
-		padding: 10px;
+	margin: 0;
+	padding: 10px;
 }
 .yc-tk{
     width:100%;
@@ -732,6 +842,27 @@
 }
  /*mobile*/
 @media (max-width: 991px) { 
+.lan-text__one{
+    width: 100%;
+}
+.lan-there .btn-printnow{
+    margin-top: 20px;
+}
+.lan__project-other .ht-product-card{
+    margin-bottom: 20px
+}
+.lan-tow{
+    text-align: left;
+}
+.flex__block{
+    display: block;
+}
+.lan__project-other{
+    padding: 10px;
+}
+.ui-gradient-green{
+    height: auto;
+}
 .radio__tk .radiotextsty{
     width: 85%
 }

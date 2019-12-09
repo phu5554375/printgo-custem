@@ -100,7 +100,7 @@ body {
   line-height: 19px;
   background-color: #fff;
   color: #000;
-  font-weight:500;
+  font-weight:400;
 }
 
 
@@ -6282,16 +6282,7 @@ font-size:12px; }
     color: #3cbeb3;
     font-weight: 400;
 }
-.btn-printnow {
-    background: #fd5b4e;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 10px 10px 24px 0px;
-    border-radius: 28px;
-    font-size: 15px;
-    height: 42px;
-    font-weight: 600;
-}
+
 .btn-cmt {
     font-weight: 600;
     background: #2dbeb3;
