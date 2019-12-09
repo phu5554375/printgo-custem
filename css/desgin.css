@@ -808,8 +808,69 @@
 .lan__project-other .title-chanxanh{
     background-size: 78% 71%;
 }
+.left-slide-tk{
+    box-shadow: 1px 0px 3px 3px #8989891f;
+    overflow: hidden;
+}
+.slide-yc__tk{
+    padding: 0;
+}
+.slide-yc__tk .photo-carousel .photo-item{
+    height: 100px;
+}
+.slide-yc__tk .single-photo-view{
+    height: 320px;
+}
+.slide-yc__tk .single-photo-view img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-slide-tk .owl-nav .owl-next{
+    display: none
+}
+.left-slide-tk .owl-nav .owl-prev{
+    display: none
+}
+.left-slide-tk .photo-carousel{
+    padding-bottom: 8px;
+}
+.left-slide-tk .tt-productdetail{
+    padding: 0px 15px;
+}
+.left-slide-tk .tt-productdetail p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.left-slide-tk .cs-other h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+.left-slide-tk .cs-other{
+    margin-top: 15px;
+}
+.left-slide-tk .cs-other ul.ht-list.ht-list-icon.icon-lg > li{
+    padding-left: 18px;
+    line-height: 25px;
+}
+.left-slide-tk .cs-other ul.ht-list.ht-list-icon > li > i{
+    position: relative;
+    display: contents;
+    color: #2dbeb3;
+}
 
- @media (min-width: 1024px) and (max-width: 1199px) {
+
+
+
+
+/*reponsive*/
+@media (min-width: 1024px) and (max-width: 1199px) {
+
 .desgin__10-1-1 .ct__desgin .wrap_banner{
 	margin: 0;
 	padding: 10px;
@@ -842,6 +903,9 @@
 }
  /*mobile*/
 @media (max-width: 991px) { 
+.slide-yc__tk .photo-carousel .photo-item{
+    width: 25%;
+}
 .lan-text__one{
     width: 100%;
 }
