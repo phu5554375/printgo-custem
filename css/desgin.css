@@ -129,7 +129,7 @@
     width: 100%;
     width: 50%;
     float: right;
-    color: #fff;
+    color: #fff !important;
 }
 .btn-des-tt:hover{ color:#fff; }
 .fa-lightbulb:before {
@@ -369,6 +369,10 @@
 .desgin__detail .cmt-fedback .content-fedback .right-cmt-product{
     width:100%;
     padding:0;
+}
+#ct__tk-scroll .advisory-form{
+    display: flex;
+    justify-content: center;
 }
 .desgin__detail  .advisory-form{
     margin: 0 auto;
