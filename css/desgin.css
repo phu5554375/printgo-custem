@@ -594,7 +594,7 @@
     line-height: 20px;
 }
 .yc-tk .yc-tk__content{
-    padding: 20px;
+    padding: 36px;
 }
 .yc-tk h3{
     font-size: 20px;
@@ -708,11 +708,17 @@
 .bt-10{
     padding: 5px 10px;
 }
-.ui-gradient-green {
-    background: url(../img/back-lan.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 590px;
+.lan-title .eduse__92{
+    font-size: 42px;
+}
+.text__black{
+    color:#000 !important;
+}
+.text__gre{
+    color: #35c085 !important;
+}
+.text__purple{
+    color:#976ec8 !important;
 }
 .lan-title{
     font-family: "steady";
@@ -754,9 +760,10 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
+    line-height: 32px;
 }
 .lan-there .btn-printnow{
-    margin: 1px 10px;
+    margin: 4px 10px;
     height: auto;
 }
 .green__icon{
@@ -797,7 +804,10 @@
     height: 39px;
 }
 .lan-hero .btn-printnow{
-    padding: 11px 31px;
+    padding: 13px 29px;
+}
+.lan-hero .btn-printnow i{ 
+    margin-right: 6px;
 }
 .lan__project-other .ht-product-card{
     border-bottom: 2px solid #40e6c9;
@@ -906,6 +916,276 @@
 .like__12{
     padding: 15px 0;
 }
+.btn-tk__1:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 38px;
+    left: 71px;
+    border: 10px solid;
+    border-color: #ee3d77 #3bbeb300 #ee3d7700 transparent;
+}
+.btn-tk__2:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 38px;
+    left: 71px;
+    border: 10px solid;
+    border-color: #3bbeb3 #3bbeb300 #ee3d7700 transparent;
+}
+.pd__goi-tk {
+    padding: 0 0 20px;
+}
+.pd__goi-tk .goi-tuy-chon .dropdown-menu.ul-136{
+    left: 2px;
+    width: 56%;
+    overflow: hidden;
+}
+.pd__goi-tk .goi-tuy-chon .btn-goi-none{
+    width:260px;
+}
+.content__des-10{
+    display: flex;
+    margin-top:20px;
+}
+.one-num{
+        background: #ffdb4a;
+    width: 137px;
+    height: 26px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 26px;
+    margin: 11px;
+}
+.btn-tow__dess{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+/*enduser*/
+/* -------------------------------------
+ * timeline
+ * ------------------------------------- */
+.timeline {
+  list-style: none;
+  margin: 0px 0 30px 17px;
+  border-left: 2px solid #2dbeb3;
+}
+.timeline li {
+  margin: 10px 0;
+  position: relative;
+}
+.timeline p {
+  margin: 0 0 15px;
+}
+.timeline .circle {
+  margin-top: -10px;
+    top: 50%;
+    left: -56px;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    height: 30px;
+    background: #3bbeb3;
+    border: 5px solid #3bbeb3;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+}
+.timeline .content {
+  max-height: 20px;
+  padding: 70px 0px 2px;
+  border-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.5em;
+  position: relative;
+  color:#000;
+}
+.timeline .content {
+  max-height: 0;
+  color: transparent;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow: hidden;
+
+}
+.timeline label {
+  font-size: 1em;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  top: 20px;
+  transition: transform 0.2s linear;
+}
+.timeline .radio {
+  display: none;
+}
+.timeline .radio:checked + .relative label {
+  cursor: auto;
+  transform: translateX(2px);
+  color:#3cbeb3;
+  font-weight: 600;
+}
+.timeline .radio:checked + .relative .circle {
+    background: #ffdb4a;
+    color: #000;
+    border: 5px solid #ffdb4a;;
+}
+.timeline .radio:checked ~ .content {
+  max-height: 480px;
+  margin-right: 20px;
+  transform: translateX(0px);
+  transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
+}
+.timeline .radio:checked ~ .content p {
+  max-height: 200px;
+  color: #000;
+  transition: color 0.3s linear 0.3s;
+}
+.btn-pad{
+    padding: 8px 26px;
+}
+.dow__des{
+    padding: 20px 20px 40px;
+    text-align: center;
+    background: #effffe;
+    margin-top: 29px;
+    border-radius: 20px;
+    color: #2dbeb3;
+}
+.dow__des .fa-file-pdf{
+    font-size: 46px;
+    padding: 20px 0;
+}
+.dow__des .fa-check-circle{
+    font-size: 46px;
+    padding: 20px 0;
+}
+.dow__des .btn-dow__des{
+    border: 2px solid #2dbeb3;
+    padding: 9px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.dow__des .btn-dow__des:hover{
+    background: #2dbeb3;
+    color:#fff;
+}
+.dow__des p{
+    color: #000;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.btn-no{
+    background: #ccc;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.pd__166 .goi-tuy-chon .btn-goi-none{
+        width: 231px;
+}
+.color-dess{
+    border-bottom: 1px dashed red;
+    margin-bottom: 10px;
+}
+.color-dess .group-type-select .single-option{
+    display: flex;
+    padding: 8px 0px;
+
+}
+.color-dess .code__col{
+    padding-left: 15px;
+}
+.color-dess .group-type-select label.single-option .option-thumb{
+    border-radius: 50%;
+
+}
+.color-dess .group-type-select label.single-option i.fa-check{
+    line-height: 32px;
+    background: none;
+}
+.enduser-processing .tt-eduser .fa-clock{
+    margin-right: 6px;
+}
+.btn-print__des{
+    background: #ee3d77;
+    padding: 11px 70px;
+    border-radius: 20px;
+    margin-top: 19px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.pd__161{
+    margin-bottom: 20px
+}
+.no-images__des{
+    background: #e9edf5;
+    height: 300px;
+    color: #bdc4d4;
+    text-align: center;
+}
+.no-images__des .fa-image{
+    font-size: 48px;
+    margin-top:100px;
+}
+.no-images__des h3{
+    font-size: 22px;
+    font-weight: 700;
+} 
+.list-edu__des .fa-check{
+    margin-right: 10px;
+    color: #3bbeb3;
+}
+/* -------------------------------------
+ * mobile phones (vertical version only)
+ * ------------------------------------- */
+@media screen and (max-width: 767px) {
+   .btn-pad {
+    padding: 8px 13px;
+}
+  .timeline {
+
+    margin:0;
+  }
+ .timeline li {
+    margin: 50px 0;
+  }
+
+  .timeline label {
+    width: 85%;
+    font-size: 1.1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    transform: translateX(18px);
+  }
+
+  .timeline .content {
+    padding: 68px 0 0;
+  }
+  .timeline .content p {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+
+  
+}
+
 
 
 
