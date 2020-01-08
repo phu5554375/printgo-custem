@@ -474,6 +474,9 @@
 .design__1-6 .view-more{
     text-align: right;
 }
+.design__1-6 .view-more .fa-arrow-right{
+    margin-left: 7px;
+}
 .design__1-6 .seller-heading-title a{ color: #000 }
 .design__1-6 .btn-fl a{ color:#fff; }
 .design__1-6 .review-summary-average .summary-star{
