@@ -1057,19 +1057,8 @@ table.ht-cart-table .product_price > span { display: block; white-space: nowrap;
     opacity: 1;
    
 }
-.ht-title.with-bb {
-    display: inline-block;
-    padding-bottom: 2px;
-}
 
-.ht-title {
-    margin: 4px 0 16px;
-    line-height: 53px;
-    font-size: 23px;
-    font-weight: bold;
-    color: #333;
 
-}
 .title-chan {
     background: url(../img/chan-hong.jpg)no-repeat;
     font-family: 'Montserrat', sans-serif;
