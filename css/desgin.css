@@ -47,7 +47,7 @@
     font-size: 35px;
     font-family: "steady";
     color: #fff;
-    margin: 8px 32px 20px 0px;
+    margin: 8px 32px 7px 0px;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -276,6 +276,9 @@
  }
 .desgin__detail {
     padding-top: 35px;
+}
+.gold-g{
+    width: 100px;
 }
 .desgin__detail .top__detail__des{
     width: 100%;
