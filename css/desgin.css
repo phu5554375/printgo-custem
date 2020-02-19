@@ -1210,7 +1210,7 @@
 .two__dh-sat{
     font-size: 26px;
     color:#3bbeb3;
-    line-height: 10px;
+    line-height: 2px;
 }
 .name__dh-sat .fa-address-card{
     margin-right: 10px;
@@ -1245,6 +1245,7 @@
     border-radius: 50%;
     background: #2cbfb5;
     color: #fff;
+    border:0
 }
 .btn-dow-dh{
     background: #ffd800;
