@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PrintGo</title>
+    <!-- Meta -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon/fabi.png" />
+    <link rel="bookmark" href="img/icon/fabi.png" />
+    <!-- CSS-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/desgin.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reposive.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="libs/html5shiv.js"></script>
+      <script src="libs/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+    <div id="siteContainer">
+        <header id="siteHeader" class="site-header fix-on-top">
+            <div class="sh_main-menu cd-auto-hide-header">
+                <div class="container">
+                    <div class="sh_main-menu_wrapper">
+                        <div class="col-md-3 col-xs-3">
+                            <h1 class="sh_logo">
+							<a href="#">
+								<span>printgo</span>
+								<img src="img/logo.png" alt="sitename-logo">
+							</a>
+						</h1>
+                        </div>
+                        <div class="col-md-9 col-sm-9 collapse navbar-collapse" id="siteHeaderNavbarCollapse">
+                            <div class="col-md-7 nav-pl main-navbar">
+                                <ul class="list-level-01 list-unstyled">
+                                    <li>
+                                        <a href="#">
+                                            <img class="img-nav" src="img/icon/1.png"> Lĩnh vực <i class="fa fa-caret-down"></i>
+                                        </a>
+                                        <ul class="list-level-02 list-unstyled">
+                                            <li>
+                                                <a href="#"><img src="img/icon/11.jpg"> Nhà hàng
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="img/icon/22.jpg"> Kinh doanh
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                            <li>
+                                                <a href=""><img src="img/icon/33.jpg"> Du lịch
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/icon/44.jpg"> Thời trang
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/icon/55.jpg"> Sự kiện
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/icon/66.png"> Cá nhân
+                                                    <span class="number-nav2">9003</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="productList.html"><img class="img-nav" src="img/icon/tuvan.png"> thiết kế <i class="fa fa-caret-down"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="newList.html"><img class="img-nav" src="img/icon/thietke.png"> hướng dẫn <i class="fa fa-caret-down"></i></a>
+                                    </li>
+                                    <li><a href="productList.html">chính sách</a></li>
+                                    <li><a href="productList.html">tin tức</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="col-md-5 hotline-pl" id="right-head">
+                                <div class="clearfix">
+                                    <ul class="control-action list-unstyled head-login">
+                                        <li>
+                                            <a href="" data-toggle="modal" data-target="#productQuickViewModal" class="login">
+                                                <span class="ht-icon">
+												<img src="img/icon/1.1_09.jpg">
+											</span>
+                                                <span class="ht-label ht-oneline">Đăng nhập </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="control-action list-unstyled">
+                                        <li>
+                                            <a href="#" class="language">
+                                                <span class="ht-icon1">
+												<img src="img/icon/1.1_0333.jpg">
+											</span>
+                                                <span class="ht-icon2">
+												<img src="img/icon/1.1_03.png">
+											</span>
+                                            </a>
+                                            <ul class="language-lv2 list-level-02 list-unstyled">
+                                                <li>
+                                                    <a href="#"><img src="img/icon/vie.jpg"> Vietnamese
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="img/icon/eng.jpg"> English
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="hot-desk">
+                                        <ul class="action-menu-list">
+                                            <li><a href="" id="" class="btn ht-btn-green btn-rounded fw-400 has-animated-effect"><i class="fa fa-phone"></i> 0985.554.375</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hot-mobi">
+                            <a href="#" class="cart-group">
+                                <i class="fa fa-phone"></i> 0902.486.865
+                            </a>
+                        </div>
+                        <div class="sh_toggle-btn">
+                            <button class="sh_main-navbar_toggle navbar-toggle collapsed" data-toggle="collapse" data-target="#siteHeaderNavbarCollapse" aria-expanded="false"><i class="ion-navicon"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-category">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-4 col-xs-6">
+                            <div class="category">
+                                <div class="vertical-navbar">
+                                    <ul class="ul-lev1">
+                                        <li class="category">
+                                            <a class="list-title toggle-menu-item" id="btn-cate" onclick="toggleMenu()"><i class="fa fa-bars"></i>
+								<span class="cate-xo">Danh mục</span> sản phẩm</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-8 col-xs-6">
+                            <div class="bar-mid">
+                                <div class="search-tab">
+                                    <div class="search-form header_search">
+                                        <form class="input-group search-bar" action="/search" method="get" role="search">
+                                            <input type="search" name="query" class="input-group-field st-default-search-input search-text" id="search_text" placeholder="Tìm kiếm sản phẩm, Mã đơn hàng..." autocomplete="off" required="">
+                                            <button type="submit" id="search_button"> <i class="fa fa-search"></i> <span class="ser-text">Tìm kiếm</span></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dropdown-search">
+                                    <a data-toggle="modal" data-target="#search-mobile" class="se-mobile"><i class="fa fa-search"></i></a>
+                                </div>
+                                <div class="cart-tab">
+                                    <div class="navbar-action">
+                                        <a href="" class="btn--create-new-shop">
+                                            <i class="fa fa-cart-plus"></i> <span class="text-heds">Đơn hàng</span>
+                                            <span class="action-badge-count">0</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="cart-tab1">
+                                    <ul class="album-list-scroll">
+                                        <li class="album-item">
+                                            <div class="album-drag-content">
+
+                                                <form id="form-upload" action="" method="post" enctype="multipart/form-data">
+
+                                                    <div class="print-n">
+                                                        <label class="add-attachment-btn btn ht-btn ht-btn-grey btn-xs">
+                                                            <input type="file" class="hidden">
+                                                            <span><i class="fa fa-print"></i> <span class="text-heds">in ngay</span></span>
+                                                        </label>
+
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="siteContent">
+            <div class="container">
+                <ul class="ht-breadcrumb">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li class="active">Hồ sơ thành viên</li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="col-md-12 col-xs-12 pl-checkstatus">
+                    <div class="content-checkstatus">
+                        <h3>Thông tin đơn hàng</h3>
+                        
+                        <p class="title-checkstatus"> Vui lòng điền mã đơn hàng ở phía dưới để xem chi tiết</p>
+                        <div class="mdh">
+                            <form id="form-status" class="form-inline" method="get">
+                                <input type="hidden" name="_csrf" value="vOB4LsQPNh7mM1M7O5dwvfV63Im6TnzjyZM1qtWWypb-2RZftmpmKqNdCXVV3BLixgus5_AfTKz6qgPihuWkoQ==">                        <label class="pl-only">Mã đơn hàng</label>
+                                <div class="form-group">
+                                    <input value="" type="text" name="status-order" class="form-control form-mdh" placeholder="Nhập mã đơn hàng">
+                                </div>
+                                <button type="submit" name="kiem-tra-don" class="btn test-btn">Kiểm tra</button>
+                            </form>
+                        </div>
+                        <div id="message"></div>
+                        <hr>
+                        <div class="form-checkstatus">
+                            <div class="block-chat">
+                                <div class="title-chat">
+                                    <p>tư vấn hỏi đáp</p>
+                                </div>
+                                <div class="text-center">
+                                    <a href="javacsript:void(0)" class="zone-fb-chat btn ht-btn-primary ht-mgr8"><i class="fa fa-comments"></i> chat ngay</a>
+                                    <a href="tel:1900633313" class="btn ht-btn-default btn-checkstatus"><i class="fa fa-phone"></i> 1900.633313</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+    <div id="siteFooter">
+        <section class="footer-promotion">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3  col-xs-12">
+                        <div class="single-policy clearfix">
+                            <img src="img/icon/icon-x1.png">
+                            <div class="policy-descr">
+                                <h4 class="item-title">In ấn</h4>
+                                <div class="item-descr">Mọi lúc, mọi nơi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-policy clearfix">
+                            <img src="img/icon/icon-x2.png">
+                            <div class="policy-descr">
+                                <h4 class="item-title">Chi phí</h4>
+                                <div class="item-descr">Cạnh tranh nhất</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-policy clearfix">
+                            <img src="img/icon/icon-x3.png">
+                            <div class="policy-descr">
+                                <h4 class="item-title">Thiết kế</h4>
+                                <div class="item-descr">Kho thư viện phong phú</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single-policy clearfix">
+                            <img src="img/icon/icon-x4.png">
+                            <div class="policy-descr">
+                                <h4 class="item-title">Chất lượng</h4>
+                                <div class="item-descr">Luôn luôn đảm bảo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-pri">
+            <section class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12">
+                            <div class="news-letter-area  mb-70">
+
+                                <div class="section-title text-center" title="Đăng ký nhận tin">
+                                    <h2>đăng ký email nhận ngay khuyến mãi <span class="gold2">300.000 VNĐ</span></h2>
+                                </div>
+                                <div class="col-md-12 col-xs-12">
+                                    <div class="news-latter-box">
+                                        <p>Nhập địa chỉ email của bạn để nhận được tin tức mới nhất</p>
+                                        <div class="news-letter-form text-center">
+
+                                            <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+
+                                                <div id="mc_embed_signup_scroll">
+                                                    <div id="mc-form" class="mc-form subscribe-form">
+                                                        <input id="mail" type="email" autocomplete="off" name="EMAIL" placeholder="Email của bạn..." required="">
+                                                        <button id="mc-submit" type="submit"><img src="img/icon/1.1_14.jpg"> <span class="dk-btn">Đăng kí</span> </button>
+                                                    </div>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 bt-for">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                    <div class="f-nav-wrap">
+                                        <div class="f-nav-title ht-title text-uppercase">Chăm sóc khách hàng</div>
+                                        <ul class="f-nav-list list-unstyled">
+                                            <li><a href="#">Hotline:<span class="gold"> 0902 186 865</span></a></li>
+                                            <li><a href="#">Email:<span class="green"> contact@printgo.vn</span></a></li>
+                                            <li><a href="#">Hướng dẫn in ấn</a></li>
+                                            <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                    <div class="f-nav-wrap">
+                                        <div class="f-nav-title ht-title text-uppercase">Về PrintGo</div>
+                                        <ul class="f-nav-list list-unstyled">
+                                            <li><a href="#">Giới thiệu PrintGo</a></li>
+                                            <li><a href="#">Chính sách bản quyền</a></li>
+                                            <li><a href="#">Bảo mật thông tin</a></li>
+                                            <li><a href="#">Tuyển dụng</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                    <div class="f-nav-wrap">
+                                        <div class="f-nav-title ht-title text-uppercase">Đối tác</div>
+                                        <ul class="f-nav-list list-unstyled">
+                                            <li><a href="#">Thanh toán</a>
+                                                <ul class="pay">
+                                                    <li>
+                                                        <a href="#"><img src="img/1.1_25.png"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><img src="img/icon/1.1_41.jpg"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><img src="img/icon/1.1_43.jpg"></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Vận chuyển</a>
+                                                <ul class="pay">
+                                                    <li>
+                                                        <a href="#"><img src="img/1.1_39.jpg"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><img src="img/1.1_14.jpg"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><img src="img/1.1_43.jpg"></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                    <div class="f-nav-wrap ">
+                                        <div class="f-nav-title ht-title text-uppercase">theo dõi printgo</div>
+                                        <ul class="f-nav-list list-unstyled">
+                                            <li>
+                                                <a href="#"><img src="img/1.1_22.jpg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/1.1_32.jpg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/1.1_37.jpg"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="about-content">
+                            <p>In Bìa Đựng Hồ Sơ | In Folders | In Danh Thiếp | In Namecards | In Giấy Tiêu Đề | In Letterheads | In Bao Thư | In Envelopes | In Tờ Gấp | In Leaflets, Brochures | In Áp Phích | In Poster PP | In Tờ Rơi | In Flyers | In Cẩm Nang | In Catalogues | In Phiếu Quà Tặng | In Gift Vouchers | In Hộp Giấy | In Paper Box | In Túi Giấy | In Paper Bags | In Nhãn Decal | In Decal Label | IGift Vouchers | In Hộp Giấy | In Paper Box</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <div class="f-copyright text-center">
+                Copyright © Công ty TNHH <span style="text-transform: uppercase;" class="green">printg<span class="gold">o</span>
+                </span> Việt Nam . All Rights Reserved.
+            </div>
+        </section>
+    </div>
+    </div>
+    <!-- thêm địa chỉ -->
+    <!-- Login -->
+    <div class="modal fade" data-backdrop="static" id="add-address" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-lg" role="document">
+            <div class="ht-modal-content">
+                <span class="ht-close-modal" data-dismiss="modal"><i class="fa fa-close"></i></span>
+
+                <div class="ht-modal-body">
+                    <div class="ht-card">
+                        <h3 class="title-xs4-pay"><img src="img/icon/6.1_13.png"> địa chỉ nhận hàng</h3>
+
+                        <div class="row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Họ tên" class="form-control background-input">
+                            </div>
+                            <div class="form-group">
+
+                                <input type="text" placeholder="Tên doanh nghiệp" class="form-control background-input">
+                            </div>
+                            <div class="form-group">
+
+                                <input type="text" placeholder="Mã số thuế" class="form-control background-input">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-group">
+
+                                    <select class="form-control background-input">
+                                        <option selected="" disabled="">Tỉnh/ Thành phố </option>
+                                        <option>Hà Nội</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group">
+
+                                    <select class="form-control background-input">
+                                        <option selected="" disabled="">Phường/ Xã </option>
+                                        <option>Di Trạch</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="text" placeholder="Tòa nhà, tên đường" class="form-control background-input">
+                            </div>
+
+                            <button class="btn btn-block btn-radius black">Hoàn thành</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Login -->
+    <div class="modal fade" data-backdrop="static" id="productQuickViewModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-lg" role="document">
+            <div class="ht-modal-content">
+                <span class="ht-close-modal" data-dismiss="modal"><i class="fa fa-close"></i></span>
+
+                <div class="ht-modal-body">
+                    <div class="ht-product-detail-card on-modal">
+                        <div class="row">
+                            <div class="col-md-6 left-login">
+                                <div class="banner-login">
+                                    <img src="img/1.1_03.jpg">
+                                </div>
+                                <div class="nav-login">
+                                    <nav class="nav-sidebar">
+                                        <ul class="nav tabs">
+                                            <li class="active"><a href="#tab1" data-toggle="tab">Đăng nhập</a></li>
+                                            <li class=""><a href="#tab2" data-toggle="tab">Đăng ký</a></li>
+
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+
+                                <!-- tab content -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active text-style" id="tab1">
+                                        <div class="ht-signin-card ht-card">
+                                            <h2 class="ht-title text-center">Đăng nhập</h2>
+
+                                            <form action="#" class="signin-form">
+                                                <div class="form-group">
+                                                    <label class="sr-only">Email</label>
+                                                    <div class="input-group">
+
+                                                        <input type="password" class="form-control from-login" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">Mật khẩu</label>
+                                                    <div class="input-group">
+
+                                                        <input id="password-field" type="password" name="password" class="form-control from-login" placeholder="Mật khẩu" value="secret">
+                                                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="pass flex flex-jc-between flex-ai-center">
+                                                    <div class="flex-item">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">Nhớ tài khoản</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="flex-item">
+                                                        <a href="#" class="color-grey-600">Quên mật khẩu</a>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button class="btn ht-btn-primary btn-block">Đăng nhập</button>
+                                                </div>
+                                                <div class="form-group text-center">
+                                                    <p> Hoặc đăng nhập với</p>
+                                                </div>
+
+                                                <div class="text-center ht-fz12">
+                                                    <ul class="nav-list">
+                                                        <li class="d-iblock mr-8">
+                                                            <a href="#" target="_blank">
+                                                                <img src="img/icon/1.1_06.jpg" alt="" width="30" height="28">
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="d-iblock mr-8">
+                                                            <a href="#" target="_blank">
+                                                                <img src="img/icon/1.1_08.jpg" alt="" width="30" height="28">
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="d-iblock mr-8">
+                                                            <a href="#" target="_blank">
+                                                                <img src="img/icon/1.1_10.png" alt="" width="30" height="28">
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane text-style" id="tab2">
+                                        <div class="ht-signin-card ht-card">
+                                            <h2 class="ht-title text-center">Đăng ký</h2>
+
+                                            <form action="#" class="signin-form">
+                                                <div class="form-group">
+
+                                                    <div class="input-group">
+
+                                                        <input type="text" class="form-control from-login" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group phone-kh" style="display: flex">
+                                                    <div class="custom-select">
+                                                        <select>
+                                                            <option value="0">+84</option>
+                                                            <option value="1">+99</option>
+
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-group">
+
+                                                        <input type="number" class="form-control from-login" placeholder="Số điện thoại">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">Mật khẩu</label>
+                                                    <div class="input-group">
+
+                                                        <input id="password-field" type="password" name="password" class="form-control from-login" placeholder="Mật khẩu" value="secret">
+                                                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only">Nhập lại mật khẩu</label>
+                                                    <div class="input-group">
+
+                                                        <input id="password-field" type="password" name="password" class="form-control from-login" placeholder="Mật khẩu" value="secret">
+                                                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                                    </div>
+                                                    <p class="ln-pass"><i>Mật khẩu phải có ít nhất 6 ký tự, bao gồm cả chữ
+và số</i></p>
+
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <button class="btn ht-btn-primary btn-block">Đăng ký miễn phí</button>
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="return-to-top" href="javascript:">
+
+        <div class="loader">
+
+            <div class="loader-ring"></div>
+
+            <div class="rocket-wrapper">
+                <div class="trail-wrapper">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/trail.png" alt="" class="trail" />
+                </div>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/small-rocket.png" alt="" class="rocket" />
+            </div>
+
+            <div class="clouds-wrapper">
+
+                <svg class="clouds" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 90.83">
+                    <defs>
+                        <clipPath id="clip-path" transform="translate(1.75)">
+                            <circle cx="42.5" cy="42.5" r="42.5" fill="none" />
+                        </clipPath>
+                        <filter id="goo" color-interpolation-filters="sRGB">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -11" result="goo" />
+                            <feBlend in="SourceGraphic" in2="goo" />
+                        </filter>
+                        <filter id="blurMe">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="0.9" />
+                        </filter>
+                    </defs>
+                    <g clip-path="url(#clip-path)" fill="#eef2f3" filter="url(#goo)">
+                        <g class="clouds-wrapper" filter="url(#blurMe)">
+                            <ellipse class="cloud" cx="40" cy="61.83" rx="7" ry="7" />
+                            <ellipse class="cloud" cx="81" cy="68.83" rx="8" ry="8" />
+                            <ellipse class="cloud" cx="6" cy="63.83" rx="6" ry="6" />
+                            <ellipse class="cloud" cx="15" cy="70.83" rx="11" ry="11" />
+                            <ellipse class="cloud" cx="65" cy="74.83" rx="11" ry="11" />
+                            <ellipse class="cloud" cx="48" cy="71.83" rx="14" ry="14" />
+                            <ellipse class="cloud" cx="34" cy="75.83" rx="16" ry="16" />
+                        </g>
+                    </g>
+                </svg>
+
+            </div>
+
+        </div>
+
+    </a>
+
+    <!-- JS-->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.multipurpose_tabcontent.js"></script>
+    <script src="js/main-ski.js"></script>
+    <script src="js/index.js"></script>
+
+    <script src="js/jquery.shorten.1.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#wrapper').append('');
+            $(window).scroll(function() {
+                if ($(window).scrollTop() != 0) {
+                    $('#return-to-top').fadeIn();
+                } else {
+                    $('#return-to-top').fadeOut();
+                }
+            });
+            $(".third_tab").champ({
+                plugin_type: "tab",
+                side: "",
+                active_tab: "1",
+                controllers: "true",
+                ajax: "true",
+                show_ajax_content_in_tab: "9",
+                content_path: "html.txt"
+            });
+            $('#return-to-top').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+
+        $(".toggle-password").click(function() {
+
+            $(this).toggleClass("fa-eye fa-eye-slash");
+            var input = $($(this).attr("toggle"));
+            if (input.attr("type") == "password") {
+                input.attr("type", "text");
+            } else {
+                input.attr("type", "password");
+            }
+        });
+
+        function checkWindowSize() {
+            var size = $(window).width();
+            if (size <= 1024) {
+                $('#btn-cate').addClass('toggle-menu-item');
+                $('.toggle-menu-item').attr('onclick', 'toggleMenu()');
+                $('.ul-lev2').css('display', 'none');
+            } else {
+                $('#btn-cate').removeClass('toggle-menu-item');
+                $('#btn-cate').removeAttr('onclick');
+                $('.ul-lev2').css('display', 'block');
+            }
+        }
+
+        function toggleMenu() {
+            $('.ul-lev2').slideToggle();
+        }
+        $(document).ready(function() {
+
+            // select2
+            $('.select2-form-control').select2();
+            // datepicker
+            $('.datepicker-form-control').datepicker({
+                orientation: "bottom"
+            });
+            // touchspin
+            $('.touchspin-form-control').TouchSpin({
+                // 
+            });
+
+        });
+        $(window).resize(function() {
+
+            checkWindowSize();
+        });
+    </script>
+
+</body>
+
+</html>

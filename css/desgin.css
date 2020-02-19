@@ -1156,12 +1156,135 @@
     margin-right: 10px;
     color: #3bbeb3;
 }
+.startic__check .content-startic__check{
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 5px;
+ 
+}
+.title__statis{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px 20px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.center__statis{
+    padding: 30px 0;
+}
+.mdh .pl-only {
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    padding: 20px 0;
+
+}
+
+.test-btn{
+    background: #2dbeb3;
+    border-radius: 20px;
+    width: 110px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+}
+.form-checkstatus{
+    padding: 10px 0 20px;
+}
+.dh__statis{
+    background: #fff9e3;
+    border-radius: 5px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px 10px 0;
+}
+.name__dh-sat{
+    font-size: 14px;
+}
+.two__dh-sat{
+    font-size: 26px;
+    color:#3bbeb3;
+    line-height: 10px;
+}
+.name__dh-sat .fa-address-card{
+    margin-right: 10px;
+    color: #3bbeb3;
+}
+.bt__statis{
+    padding: 30px 0;
+}
+.dh-bold {
+    font-weight: 700;
+}
+.title-check{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6px;
+
+}
+.sreach--dh{
+    padding: 10px;
+}
+.sreach--dh .input--dh__sreach{
+    background: #ebfffe;
+    border: 0;
+    padding: 9px 15px;
+    border-radius: 20px;
+    width: 300px;
+}
+.search_dh-bt{
+    position: absolute;
+    right: 12px;
+    padding: 8px 11px;
+    border-radius: 50%;
+    background: #2cbfb5;
+    color: #fff;
+}
+.btn-dow-dh{
+    background: #ffd800;
+    margin-right: 10px;
+}
+.btn-prevew{
+    background: #ee3d77;
+}
+.btn-ct-dh{
+    color:#000 !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn-ct-dh .fas{
+    margin-right: 6px;
+}
 /* -------------------------------------
  * mobile phones (vertical version only)
  * ------------------------------------- */
 @media screen and (max-width: 767px) {
-   .btn-pad {
+.title-check{
+    display: block;
+}
+.dh__statis{
+    display: block;
+    padding:10px;
+}
+.startic__check .content-startic__check{
+        width:100%
+}
+.btn-pad {
     padding: 8px 13px;
+}
+.startic__check .mdh .form-mdh{
+    width:95%;
+    margin: 0 auto;
+}
+.form-checkstatus .block-chat .btn{
+    margin-bottom: 10px;
 }
   .timeline {
 
