@@ -1304,6 +1304,9 @@
     width: 70px;
     height: 70px;
 }
+.dh__table-content .tt-pending{
+    font-weight: 500;
+}
 /* -------------------------------------
  * mobile phones (vertical version only)
  * ------------------------------------- */
