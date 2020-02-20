@@ -1247,14 +1247,17 @@
     background: #ffd800;
     margin-right: 10px;
 }
+.btn-dow{
+    background: #fd5b4e;
+}
 .btn-prevew{
     background: #ee3d77;
 }
 .btn-ct-dh{
-    color:#000 !important;
+    color:#fff !important;
     padding: 10px 20px;
     border-radius: 5px;
-    width: 100px;
+    margin: 10px;
 }
 .btn-ct-dh .fas{
     margin-right: 6px;
@@ -1307,10 +1310,63 @@
 .dh__table-content .tt-pending{
     font-weight: 500;
 }
+#checkSatic .product-detail{
+    display: flex;
+}
+#checkSatic .p-title {
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+    margin: 0;
+    padding-top: 9px;
+    text-transform: uppercase;
+}
+
+#checkSatic .product-info{
+    padding-left: 10px;
+}
+#checkSatic .product-image{
+    width: 70px;
+    height: 70px;
+}
+#checkSatic .statics-item{
+    border: 1px solid #ccc;
+    padding: 8px 8px 0px;
+    margin: 0px 6px;
+    border-radius: 5px;
+}
+#checkSatic .statics-item.active{
+    border: 1px solid #2dbeb391;
+    background: #2dbeb314;
+    border-radius: 5px;
+}
+#checkSatic .owl-nav .fa{
+    color:#3dbfb5;
+    
+}
+#checkSatic .owl-nav .owl-prev{
+    background: none;
+    left: -14px;
+}
+#checkSatic .owl-nav .owl-next{
+    background: none;
+    right: -14px;
+}
+#checkSatic .ct-oder {
+    font-size: 11px;
+    color: #000;
+    margin-top: 6px;
+}
+.tabs-ct-static{
+    padding: 50px 0;
+}
 /* -------------------------------------
  * mobile phones (vertical version only)
  * ------------------------------------- */
 @media screen and (max-width: 767px) {
+.two__dh-sat{
+    display: none;
+}
 .title-check{
     display: block;
 }
