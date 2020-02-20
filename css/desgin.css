@@ -1181,16 +1181,15 @@
     font-size: 14px;
     color: #000;
     padding: 20px 0;
-
 }
 
 .test-btn{
     background: #2dbeb3;
-    border-radius: 20px;
+    border-radius: 20px !important;
     width: 110px;
-    font-weight: 500;
+    font-weight: 500 !important;
     color: #fff;
-    font-size: 15px;
+    font-size: 15px !important;
 }
 .form-checkstatus{
     padding: 10px 0 20px;
@@ -1215,9 +1214,6 @@
 .name__dh-sat .fa-address-card{
     margin-right: 10px;
     color: #3bbeb3;
-}
-.bt__statis{
-    padding: 30px 0;
 }
 .dh-bold {
     font-weight: 700;
@@ -1262,6 +1258,51 @@
 }
 .btn-ct-dh .fas{
     margin-right: 6px;
+}
+.dh__table-content{
+    text-align: center;
+    padding:0 15px;
+    font-size: 13px;
+}
+.table-title{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-weight: 500;
+}
+
+.dh__table-content .table{
+    width:99%;
+}
+
+.pedding__dh{
+    color:#a29f9f;
+    font-weight: 600;
+}
+.dh__table-content .table-responsive .product-detail .product-info .p-title{
+    font-size: 13px;
+}
+.dh__table-content .tt-pending{
+    text-align: left;
+}
+.dh__table-content .table-title th{
+    text-align: center;
+}
+.dh__table-content .product-info{
+    text-align: left;
+}
+.dh__table-content .table-responsive .product-detail .product-info{
+    display: block;
+}
+.dh__table-content .table-responsive .product-detail{
+    width: 225px;
+}
+.dh__table-content .table-responsive .product-image{
+    width: 70px;
+    height: 70px;
+}
+.dh__table-content .table-responsive .product-image .p-image{
+    width: 70px;
+    height: 70px;
 }
 /* -------------------------------------
  * mobile phones (vertical version only)
