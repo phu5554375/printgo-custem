@@ -16,6 +16,16 @@
   background-color: #333;
   margin-bottom: 1em;
 }
+.btn-logout-pop {
+    background: linear-gradient(90deg, rgba(77,228,184,1) 0%, rgba(251,193,4,1) 100%);
+    width: 100%;
+    text-transform: uppercase;
+}
+.btn-login-out {
+    background: linear-gradient(90deg,rgba(65,230,199,1) 43%,rgba(58,231,220,1) 100%);
+    width: 100%;
+    text-transform: uppercase;
+}
 @media (min-width: 43.75em) {
   /* responsive layout */
   .candy-wrapper {
