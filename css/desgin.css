@@ -1606,29 +1606,29 @@
     border-radius: 0 0 5px 0;
 }
 .tootip-logo-lg{
-   position: absolute;
-    top: 38%;
-    left: 37%;
+    position: absolute !important;
+    top: 44% !important;
+    left: 37% !important;
     background: #e7fcfb;
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
-    text-align: center;
+    padding: 10px !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    text-align: center !important;
 }
 .ds-logo{
     display: flex; 
     justify-content: space-evenly;
 }
 .bt-lg-tool{
-    border-radius: 30px;
+    border-radius: 30px !important;
     color: #fff;
-    font-weight: 600;
+    font-weight: 600  !important;
     margin: 7px;
 }
 .tootip-logo-lg:after {
     content: "";
     position: relative;
-    bottom: -40px;
+    bottom: -44px;
     left: 5%;
     border: 15px solid #ffffff00;
     border-top-color: #e7fcfb;
