@@ -3,6 +3,48 @@
   src: url("../fonts/SVN-Steady.otf");
        
 }
+
+
+
+.seclect-lv {
+    /* you should keep these firsts rules in place to maintain cross-browser behaviour */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    outline: none;
+    /* the following rules can be modified as you wish */
+    border: 1px solid #DDD;
+    border-radius: 0;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    padding: 8px 12px;
+    height: 50px;
+    width: 100%;
+    color: #000;
+}
+
+/*** the following rule remove default arrow on HTML tag select - IE10+ ***/
+.seclect-lv::-ms-expand {
+    display: none;
+}
+select.seclect-lv{
+    background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20version%3D%221.1%22%20x%3D%2212px%22%20y%3D%220px%22%20width%3D%2224px%22%20height%3D%225px%22%20viewBox%3D%220%200%206%203%22%20enable-background%3D%22new%200%200%206%203%22%20xml%3Aspace%3D%22preserve%22%20fill%3D%22%23fff%22%3E%3Cpolygon%20points%3D%225.992%2C0%202.992%2C3%20-0.008%2C0%20%22/%3E%3C/svg%3E);
+    box-shadow: none;
+    color: #000;
+    line-height: 11px;
+}
+select.seclect-lv2{
+    background-color: #0500AE;
+    border-color: #0500AE;
+ 
+}
+
+
+
 .pd-20{
     padding:20px 0;
 }
@@ -59,11 +101,11 @@
 
 }
 .desgin__10-1-1 .ct__desgin .wrap_banner .wr_title .h2 span{
-	font-size: 42px;
+    font-size: 42px;
 
 }
 .back-des{
-	color: #000;
+    color: #000;
     text-align: center;
     width: 60%;
     padding: 2px 4px;
@@ -71,13 +113,13 @@
     margin: 10px 0px;
 }
 .back-des .fa{
-	margin-right: 5px;
+    margin-right: 5px;
 }
 .background__desgin1{
     background: #e7cd57;
 }
 .title-desgin1{
-	 text-shadow: 
+     text-shadow: 
      3px 3px #2b66c7, 2px 0px #2b66c7, 3px 0px #2b66c7, 2px 2px #2b66c7, 1px 1px 5px #2b66c7
 }
 .background__desgin2{
@@ -85,48 +127,48 @@
     color:#fff;
 }
 .title-desgin2{
-	 text-shadow: 
-	 3px 3px #dd817d, 2px 0px #dd817d, 3px 0px #dd817d, 2px 2px #dd817d, 1px 1px 5px #dd817d
+     text-shadow: 
+     3px 3px #dd817d, 2px 0px #dd817d, 3px 0px #dd817d, 2px 2px #dd817d, 1px 1px 5px #dd817d
 }
 
 .title-desgin3{
-	 text-shadow: 
-	 3px 3px #e65051, 2px 0px #e65051, 3px 0px #e65051, 2px 2px #e65051, 1px 1px 5px #e65051
+     text-shadow: 
+     3px 3px #e65051, 2px 0px #e65051, 3px 0px #e65051, 2px 2px #e65051, 1px 1px 5px #e65051
 }
 .background__desgin4{
     background: #946bc6;
     color:#fff;
 }
 .title-desgin4{
-	 text-shadow: 
-	 3px 3px #946bc6, 2px 0px #946bc6, 3px 0px #946bc6, 2px 2px #946bc6, 1px 1px 5px #946bc6
+     text-shadow: 
+     3px 3px #946bc6, 2px 0px #946bc6, 3px 0px #946bc6, 2px 2px #946bc6, 1px 1px 5px #946bc6
 }
 .background__desgin5{
     background: #2281e0;
     color:#fff;
 }
 .title-desgin5{
-	 text-shadow: 
-	 3px 3px #2281e0, 2px 0px #2281e0, 3px 0px #2281e0, 2px 2px #2281e0, 1px 1px 5px #2281e0
+     text-shadow: 
+     3px 3px #2281e0, 2px 0px #2281e0, 3px 0px #2281e0, 2px 2px #2281e0, 1px 1px 5px #2281e0
 }
 .title-desgin6{
-	text-align: right;
-	color:#000 !important;
-	font-family: 'Montserrat', sans-serif !important;
-	text-transform: uppercase;
-	line-height: 40px;
+    text-align: right;
+    color:#000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+    line-height: 40px;
     font-size: 20px !important;
     font-weight: 400 !important;
     margin: 8px 32px 13px 0px !important;
 
 }
 .title-desgin6 span{
-	color: red !important;
-	font-size: 35px !important;
+    color: red !important;
+    font-size: 35px !important;
     font-weight: 700;
 }
 .btn-des-tt{
-	background: red;
+    background: red;
     padding: 10px 20px;
     border-radius: 20px;
     width: 100%;
@@ -156,36 +198,36 @@
     text-align: left;
 }
 .ap__desgin{
-	width: 100%;
-	overflow: hidden;
-	padding-top: 30px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
 }
 .ap__desgin .ht-product-card.h-shadow{
-	border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 .ap__desgin .ht-product-card.h-shadow:hover{
-	border-bottom: 2px solid #3cbeb3;
+    border-bottom: 2px solid #3cbeb3;
 }
 .ap__desgin .ht-product-card.h-shadow:hover h3 a{
-	color: #3cbeb3;
+    color: #3cbeb3;
 }
 .ap__desgin .pd-0{
-	padding: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
 }
 .ap__desgin .ht-product-card.h-shadow:hover .next-page .fa{
-	color:#3cbeb3;
+    color:#3cbeb3;
 }
 .ap__desgin .ht-product-card .next-page{
-	border-bottom: 2px solid #3cbeb3;
+    border-bottom: 2px solid #3cbeb3;
     padding: 0px 5px 10px 28px;
 }
 .ap__desgin .bt-item__ap .fa-lightbulb{
-	color: #3cbeb3;
+    color: #3cbeb3;
     margin-right: 5px;
     font-size: 14px;
 }
 .ap__desgin .ht-product-card .product-detail .pro-name{
-	margin: 0;
+    margin: 0;
 }
 .ap__desgin .ht-product-card .product-detail .pro-name a {
     font-size: 16px;
@@ -195,21 +237,21 @@
     padding: 0;
 }
 .ap__desgin .title-product{
-	padding:0;
+    padding:0;
 }
 .ap__desgin .ht-title{
-	font-size: 25px;
+    font-size: 25px;
 }
 #custom-desgin-input{
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
 }
 #custom-desgin-input .input-group{
-	margin-right: 15px;
+    margin-right: 15px;
 }
 #custom-desgin-input .btn-ser__des{
-	color: #000;
+    color: #000;
     background: none;
     border: 1px solid #ccc;
     padding: 5px;
@@ -217,16 +259,16 @@
 
 }
 #custom-desgin-input .search-query{
-	border-right: 0;
+    border-right: 0;
 }
 #custom-desgin-input .sec__right-ap{
-	width: 250px;
-	border-radius: 5px;
+    width: 250px;
+    border-radius: 5px;
 }
 .duan__desgin{
-	width:100%;
-	overflow: hidden;
-	padding-top: 30px;
+    width:100%;
+    overflow: hidden;
+    padding-top: 30px;
 }
 .duan__desgin .title-channb {
     background-size: 160px 30px;
@@ -240,42 +282,42 @@
     display: flex;
 }
 .duan__desgin .ht-product-card.h-shadow{
-	border-bottom: 1px solid #ff3e89;
-	margin-bottom: 25px;
+    border-bottom: 1px solid #ff3e89;
+    margin-bottom: 25px;
 }
 .duan__desgin .btn.btn-xs{
-	text-align: right;
+    text-align: right;
 }
 .duan__desgin .bt-item__ap{
-	display: flex;
-	padding: 6px 0px;
-	justify-content: space-between;
+    display: flex;
+    padding: 6px 0px;
+    justify-content: space-between;
 }
 .duan__desgin .ht-product-card .product-detail .pro-name{
-	margin:0;
+    margin:0;
 }
 .duan__desgin .ht-product-card .product-detail .pro-name a{ 
-	font-size: 15px;
+    font-size: 15px;
  }
  .duan__desgin .bt-item__ap a{
- 	color:#000;
+    color:#000;
  }
  .duan__desgin .ht-product-card.h-shadow:hover .pro-name a{
- 	color: #ff3e89;
+    color: #ff3e89;
  }
  .duan__desgin .ht-product-card.h-shadow:hover .bt-item__ap a{
-  	color: #ff3e89;
+    color: #ff3e89;
  } 
  .folow__desgin{
- 	padding: 10px 40px;
+    padding: 10px 40px;
     width: 100%;
     color:#fff;
     border-radius: 20px;
     background: #fd5a4e;
  }
  .btn-fl{
- 	padding: 20px 0px;
- 	margin-top: 10px;
+    padding: 20px 0px;
+    margin-top: 10px;
  }
 .desgin__detail {
     padding-top: 35px;
@@ -454,11 +496,14 @@
     margin:0;
 }
 .back-desgin__16 {
-    background: url(../img/10.1_11.png) no-repeat;
-    margin: 0px;
-    width: 100%;
-    padding: 0;
-    background-size: 100%;
+    background: url(../img/10.1_11.png) no-repeat !important;
+    margin: 0px !important;
+    width: 100% !important;
+    padding: 0 !important;
+    background-size: 100% !important;
+}
+.yc-des{
+    padding: 30px 0;
 }
 .design__1-6 .cat-filter-header{
     display: flex;
@@ -1013,6 +1058,7 @@
     line-height: 20px;
     text-transform: uppercase;
     font-weight: 700;
+    min-height: 41px;
     margin: 0;
 }
 .ct-bt-logo .wrap_title_ed{
@@ -1643,7 +1689,7 @@
 .col-item .separator .btn-add .seclect-lv{
     width: 76px;
     height: 29px;
-    background: #5252c4;
+
     color: #fff;
 }
 .detail-logo-top{
@@ -1674,10 +1720,10 @@
     padding-top: 20px;
 }
 .tt-right-logo{
-    padding: 0 0 0px 20px;
+    padding: 0 0 0px 12px !important;
 }
 .pd-lg-left{
-    padding: 0 30px 0px 10px;
+    padding: 0 30px 0px 10px !important;
 }
 /* ------------------------------------- 
  * mobile phones (vertical version only)
@@ -1799,8 +1845,8 @@
 @media (min-width: 1024px) and (max-width: 1199px) {
 
 .desgin__10-1-1 .ct__desgin .wrap_banner{
-	margin: 0;
-	padding: 10px;
+    margin: 0;
+    padding: 10px;
 }
 .yc-tk{
     width:100%;
@@ -1811,8 +1857,8 @@
 }
  @media (min-width: 768px) and (max-width: 1023px) {
 .desgin__10-1-1 .ct__desgin .wrap_banner{
-		padding: 0px 10px;
-		margin-bottom: 15px;
+        padding: 0px 10px;
+        margin-bottom: 15px;
 }
 
 .desgin__detail .ht-user-review-card .reviews-by-user-list .single-review .user-avatar {
@@ -1891,34 +1937,34 @@
     margin-bottom: 20px;
 }
 .ap__desgin .title-product{
-	display: block;
+    display: block;
 }
 #custom-desgin-input{
-	display: block;
+    display: block;
 }
 #custom-desgin-input .sec__right-ap{
-	width: 100%;
-	margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .ap__desgin .pd-0{
-	padding: 0;
+    padding: 0;
 }
 .pd-0__design{
-	margin:0;
-	padding: 0;
+    margin:0;
+    padding: 0;
 }
 .ap__desgin .ht-product-card.h-shadow{
-	margin: 10px 0px;
+    margin: 10px 0px;
 }
 .duan__desgin .ht-product-card.h-shadow{
-	margin: 10px 0px;
+    margin: 10px 0px;
 }
 .duan__desgin .title-channb{
-	font-size: 20px;
+    font-size: 20px;
 }
 .ap__desgin .ht-title{
-	font-size: 20px;
+    font-size: 20px;
 }
 }
 
