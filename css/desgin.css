@@ -5,7 +5,36 @@
 }
 
 
+.bl__91 .text-color{color:#fff !important;}
+.bl__91 .text__des{color:#fff !important;}
+.bl__91 .text__gre{color:#fff !important;}
+.bl__91 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
 
+.bl__92 .text-color{color:#000 !important;}
+.bl__92 .color-hig{color:#3bc084 !important;}
+.bl__92 .text__des{color:#000 !important;}
+.bl__92 .text__gre{color:#3bc084 !important;}
+.bl__92 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi2.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
+
+.bl__93 .text-color{color:#000 !important;}
+.bl__93 .color-hig{color:#f55a4e !important;}
+.bl__93 .text__gre{color:#f55a4e !important;}
+.bl__93 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi3.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
+
+.bl__94 .text-color{color:#000 !important;}
+.bl__94 .color-hig{color:#878ce0 !important;}
+.bl__94 .text__gre{color:#878ce0 !important;}
+.bl__94 .text__des{color:#000 !important;}
+.bl__94 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi3.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
+
+.bl__95 .text-color{color:#fff !important;}
+.bl__95 .text__des{color:#fff !important;}
+.bl__95 .text__gre{color:#fff !important;}
+.bl__95 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
+
+.note-yc{
+    font-size: 12px;
+}
 .seclect-lv {
     /* you should keep these firsts rules in place to maintain cross-browser behaviour */
     -webkit-appearance: none;
@@ -125,6 +154,10 @@ select.seclect-lv2{
 .background__desgin2{
     background: #474d6f;
     color:#fff;
+}
+.background__desgin3{
+    background: #e7cd57c7;
+    color: #000;
 }
 .title-desgin2{
      text-shadow: 
@@ -818,6 +851,7 @@ select.seclect-lv2{
 }
 .lan-there .btn-printnow{
     margin: 4px 10px;
+        padding: 8px 26px;
     height: auto;
 }
 .lan-there .btn-printnow i{
@@ -861,7 +895,7 @@ select.seclect-lv2{
     height: 39px;
 }
 .lan-hero .btn-printnow{
-    padding: 13px 29px;
+    padding: 9px 29px;
 }
 .lan-hero .btn-printnow i{ 
     margin-right: 6px;
