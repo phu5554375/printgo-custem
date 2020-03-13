@@ -4,11 +4,122 @@
        
 }
 
+.platium-color{
+  border: 1px solid #3dbeb3;
+}
+.gold-color{
+    border: 1px solid #fbdb4a;
+}
+.diamond-color{
+    border: 1px solid #f55a4e;
+}
+.diamond-color::before{
+  background-image: url(../img/dinamonk.png);
+    background-repeat: no-repeat;
+    display: block !important;
+    z-index: 1;
+    position: absolute;
+    width: 240px;
+    height: 339px;
+    content: "";
+    top: -50px;
+}
+.pricing-table {
+  text-align: center;
+}
+.pricing-item {
+  border-radius: 3px;
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  background: #fff;
+  margin: 20px;
+  vertical-align: top;
+  position: relative;
+  box-shadow: 0px 10px 8px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+.btn-lan__bl1{
+    background: #fbdb4a;
+    padding: 8px;
+    margin: 16px 22px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-lan__bl1 .fa-shopping-cart{
+    margin-right: 6px;
+}
+.pricing-item .pricing-title {
+    width: 50%;
+    margin: 0 auto;
+    color: #000;
+    border-top: 3px solid #ffdb4a;
+    display: block;
+    position: relative;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.pricing-item.pricing-featured .pricing-title {
+    background: #FF4136;
+}
 
+/* pricing-value */
+.pricing-value {
+    width: 90px;
+    height: 90px;
+    padding-top: 16px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 34px;
+    margin: 10px auto;
+    line-height: 27px;
+}
+.pricing-value .gia-pri{
+   text-decoration:  underline;
+   font-weight:bold;
+}
+.pricing-value .undertext {
+    display: block;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight:600;
+}
+
+.pricing-item .pricing-value {
+  background: #fbdb4a;
+  border: 2px solid #fbdb4a;
+  color:#000;
+}
+
+.pricing-item.pricing-featured .pricing-value {
+  background: #FF4136;
+  border: 2px solid #FF4136;
+}
+/* List */
+.pricing-item .pricing-features {
+      margin: 10px 0;
+      padding: 0;
+      list-style: none;
+}
+.pricing-item .pricing-features li {
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 16px;
+    padding-top: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 auto;
+}
 .bl__91 .text-color{color:#fff !important;}
 .bl__91 .text__des{color:#fff !important;}
 .bl__91 .text__gre{color:#fff !important;}
-.bl__91 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
+.bl__91 .img-bl__lan{background: url(https://printgo.vn/img/lan-wi.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
 
 .bl__92 .text-color{color:#000 !important;}
 .bl__92 .color-hig{color:#3bc084 !important;}
@@ -32,11 +143,8 @@
 .bl__95 .text__gre{color:#fff !important;}
 .bl__95 .img-bl__lan{    background: url(https://printgo.vn/img/lan-wi.png) no-repeat;background-position: left;height: 23px;background-size: contain;}
 
-.note-yc{
-    font-size: 12px;
-}
+.note-yc{font-size: 12px;}
 .seclect-lv {
-    /* you should keep these firsts rules in place to maintain cross-browser behaviour */
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
@@ -45,7 +153,6 @@
     background-position: 98% center;
     background-repeat: no-repeat;
     outline: none;
-    /* the following rules can be modified as you wish */
     border: 1px solid #DDD;
     border-radius: 0;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -55,8 +162,6 @@
     width: 100%;
     color: #000;
 }
-
-/*** the following rule remove default arrow on HTML tag select - IE10+ ***/
 .seclect-lv::-ms-expand {
     display: none;
 }
@@ -71,9 +176,6 @@ select.seclect-lv2{
     border-color: #0500AE;
  
 }
-
-
-
 .pd-20{
     padding:20px 0;
 }
@@ -131,7 +233,6 @@ select.seclect-lv2{
 }
 .desgin__10-1-1 .ct__desgin .wrap_banner .wr_title .h2 span{
     font-size: 42px;
-
 }
 .back-des{
     color: #000;
@@ -221,7 +322,7 @@ select.seclect-lv2{
     border-bottom: 1px solid #fff;
 }
 .bt-item__ap i{
-    margin-right: 5px;
+    margin-right: 3px;
     color: #ff418a;
 }
 .bt-item__ap .fa-pencil-alt{
@@ -545,7 +646,10 @@ select.seclect-lv2{
 .bt-item__ap{
     display:flex;
     margin-top: 5px;
-    justify-content: space-between;
+   
+}
+.bt-item__ap .price-1{
+    margin-right: 15px;
 }
 .design__1-6 .pd-0__design .ht-product-card{
     border-bottom: 2px solid #ffb1cb;
