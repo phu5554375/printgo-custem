@@ -2241,6 +2241,9 @@ select.seclect-lv2{
     margin-right:0;
     padding: 10px 0;
 }
+.item-log:after{
+    display: none
+}
 .pricing-table .pricing-none .item-block-hd2{
     padding-top:0
 }
