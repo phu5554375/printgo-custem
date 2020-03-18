@@ -959,7 +959,9 @@ select.seclect-lv2{
 .radio__tk{
     padding: 9px 0px;
 }
-
+.radio__tk .customradio{
+    padding: 0;
+}
 .radio__tk label{
     width:100%;
     padding: 0 9px 0 0;
@@ -984,7 +986,10 @@ select.seclect-lv2{
 .you-tdg{
     font-size: 16px;
     font-weight:600;
-    margin: 10px 9px;
+    margin: 10px 0;
+}
+.radio__tk .radiotextsty{
+    width: 90%;
 }
 .up__img-des .group-type-select label.single-option .option-thumb{
     border-radius: 0;
