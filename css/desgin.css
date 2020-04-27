@@ -3,6 +3,70 @@
     src: url("../fonts/SVN-Steady.otf");
          
   }
+  /* voucher */
+  .vou-input {
+    width: 100%;
+    border-right: none;
+    padding: 12px;
+    background: #f5c400;
+    border-radius: 10px;
+    outline: none;
+    color: #000000;
+    border: 0;
+    z-index: 1;
+  }
+  .vou-input:focus{
+    color: #000;
+  }
+  .vou-input::placeholder {
+    color:#000;
+    font-style: italic;
+  }
+  .voubutton {
+    width: 44%;
+
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #000;
+    font-style: italic;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: -16px;
+    text-align: right;
+    font-size: 14px;
+  }
+  .voucher-form{
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+  }
+  #voucher-50 .ht-modal-content{
+    text-align: center;
+    border-radius: 30px;
+    padding: 25px 30px 40px;
+  }
+  #voucher-50 .ht-modal-content .title-vor{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .red-vou{
+      color:#a11f2b
+  }
+  .img-vor{
+    width: 57%;
+    margin: 0 auto;
+    padding: 6px 0;
+  }
+  .des-vou{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+  /* end voucher */
   .text-right{
       text-align: right;
   }
@@ -2072,6 +2136,25 @@
    * mobile phones (vertical version only)
    * ------------------------------------- */
   @media screen and (max-width: 767px) {
+    #voucher-50{
+        padding: 0;
+    }
+    .voucher-form{
+        width: 100%;
+    }
+    .voubutton{
+        font-size: 11px;
+    }
+    .img-vor{
+        width: 80%;
+    }
+    .vou-input::placeholder {
+        
+        font-size: 11px;
+    }
+    #voucher-50 .ht-modal-content{
+        padding: 25px 18px 40px;
+    }
   .dh__table-content{
     display:block;
   }
