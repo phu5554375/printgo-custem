@@ -57,8 +57,11 @@
     color: #ff7758;
     font-weight: 700;
     margin-top: 20px;
-    
-
+  }
+  .mess-vou{
+    font-size: 12px;
+    color: #333133;
+    font-style: italic;
   }
   /* end voucher */
   .text-right{
