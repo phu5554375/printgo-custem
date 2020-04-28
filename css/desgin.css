@@ -1,7 +1,6 @@
 @font-face {
     font-family: "steady";
-    src: url("../fonts/SVN-Steady.otf");
-         
+    src: url("../fonts/SVN-Steady.otf");      
   }
   /* voucher */
 .voubutton {
@@ -40,7 +39,6 @@
   }
   #voucher-50 .ht-modal-content{
     text-align: center;
- 
     padding: 25px 30px 40px;
     background: url(../img/qua-vor.png) no-repeat;
     background-position: center;
@@ -59,7 +57,7 @@
     color: #ff7758;
     font-weight: 700;
     margin-top: 20px;
-    text-transform: uppercaseup;
+    
 
   }
   /* end voucher */
