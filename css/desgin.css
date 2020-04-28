@@ -30,7 +30,7 @@
     color:#000;
   }
   .voucher {
-   padding-top: 40px;
+   padding-top: 30px;
   }
   .voucher-form{
       display: flex;
@@ -45,7 +45,8 @@
     background: url(../img/qua-vor.png) no-repeat;
     background-position: center;
     background-size: cover; 
-    height: 550px;
+    height: 500px;
+    width: 100%;
   }
   #voucher-50 .ht-modal-content .title-vor{
     font-size: 22px;
