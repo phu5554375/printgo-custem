@@ -1,0 +1,23 @@
+.no_bullets{
+    background: #f7f6fa;
+    width: 50%;
+    padding: 17px;
+    border: 1px solid #ccc;
+}
+.no_bullets .toc_list{
+    padding: 0 20px;
+    line-height: 22px;
+}
+.no_bullets .toc_title{
+    font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+    .no_bullets{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .no_bullets{
+        width: 100%;
+    }
+}
