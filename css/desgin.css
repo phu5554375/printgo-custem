@@ -5,7 +5,7 @@
   }
   .popup-down{
     background: #fff;
-    border: 1px solid red;
+    border: 1px solid white;
     top: 53%;
     left: 56%;
     padding: 15px;
@@ -26,11 +26,12 @@
     bottom: -36px;
     left: -14%;
     border: 15px solid #ffffff00;
-    border-top-color: #ff0000;
+    border-top-color: #ffffff;
 }
  .popup-down .text-dow{
     font-size: 12px;
     line-height: 19px;
+    color: red;
 }
   /* voucher */
   .voubutton {
