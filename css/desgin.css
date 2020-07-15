@@ -929,7 +929,7 @@
   .bt-item__ap{
       display:flex;
       margin-top: 5px;
-     
+      justify-content: space-between;
   }
   /* .bt-item__ap .price-1{
       margin-right: 15px;

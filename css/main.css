@@ -4284,7 +4284,6 @@ top: 0;
 }
 .content-fedback .right-cmt-product{ 
   width: 70%; 
-  padding: 0px 25px 0px; 
 }
 .single-action .post-action.active{ 
   color: #3cbeb3 
@@ -4410,7 +4409,7 @@ margin: 0 auto; width: 90px; height: 90px; border: 2px solid rgba(255, 255, 255,
 .rating > label:before { 
   margin: 5px;
   font-size: 1.25em;
-  font-family: FontAwesome;
+  font-family: 'Font Awesome 5 Free';
   display: inline-block;
   content: "\f005";
 }
